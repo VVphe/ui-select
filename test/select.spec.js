@@ -22,7 +22,7 @@ describe('ui-select tests', function () {
   }
 
   //create a directive that wraps ui-select
-  angular.module('wrapperDirective', ['ui.select']);
+  angular.module('wrapperDirective', ['arrow.select']);
   angular.module('wrapperDirective').directive('wrapperUiSelect', function () {
     return {
       restrict: 'EA',
@@ -72,7 +72,7 @@ describe('ui-select tests', function () {
     }
   });
 
-  beforeEach(module('ngSanitize', 'ui.select', 'wrapperDirective', 'testValidator'));
+  beforeEach(module('ngSanitize', 'arrow.select', 'wrapperDirective', 'testValidator'));
 
   beforeEach(function () {
     module(function ($provide) {

@@ -40,7 +40,7 @@ gulp.task('scripts', ['clean'], function() {
              spare: true,
              quotes: true
             }))
-      .pipe($.angularTemplatecache({module: 'ui.select'}));
+      .pipe($.angularTemplatecache({module: 'arrow.select'}));
   };
 
   var buildLib = function(){
