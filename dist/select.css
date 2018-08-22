@@ -5,6 +5,30 @@
  * License: MIT
  */
 
+ .q-ui-select-arrow {
+  display: table-cell;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #E5E6E7;
+  border-radius: 1px;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border-left: 0;
+}
+.q-ui-select-input {
+  position: relative;
+  display: table-row;
+  border-collapse: separate;
+  width: 100%;
+}
+.q-ui-select-input > div {
+  display: table-cell;
+}
 
 /* Style when highlighting a search. */
 .ui-select-highlight {
